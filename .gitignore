@@ -1,0 +1,21 @@
+# Dados locais e backups dos jogos/Windows
+/backups/
+/logs/
+
+# Binários são distribuídos nas Releases
+*.exe
+*.dll
+*.pdb
+*.tmp
+*.bak
+/bin/
+/obj/
+
+# IDE e configurações pessoais
+/.vs/
+/.vscode/
+*.user
+*.suo
+.env
+.env.*
+!.env.example
